@@ -20308,3 +20308,29 @@ Refine relentlessly.
 The greatest portfolio is not the one you create today.
 
 It is the one that proves how much you have grown tomorrow.
+
+
+
+
+
+# LAW 36 — Experience Over Convention
+
+The purpose of this portfolio is not to follow common portfolio trends.
+
+Its purpose is to create a memorable experience that communicates creativity, craftsmanship, and personality.
+
+When evaluating design decisions:
+
+Do not ask:
+
+"What is most common?"
+
+Instead ask:
+
+"What best communicates the creator's identity?"
+
+Conventional solutions should only be chosen when they are objectively better for usability, accessibility, or long-term maintainability.
+
+Otherwise, prefer thoughtful originality over familiarity.
+
+The final portfolio should feel intentionally designed rather than assembled from common patterns.

@@ -128,6 +128,26 @@ The portfolio should communicate:
 
 ---
 
+## DESIGN PRIORITIES
+
+I admire work that immediately captures attention.
+
+I value portfolios that create an emotional response before presenting technical information.
+
+I prefer memorable interactions over conventional layouts.
+
+When evaluating ideas, prioritize experiences that make visitors think:
+
+"This feels different."
+
+rather than:
+
+"This looks like another portfolio."
+
+Engineering quality should elevate creative ambition—not replace it.
+
+---
+
 # CURRENT EXPERIENCE
 
 ## Video Editing Background

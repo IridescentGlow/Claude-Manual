@@ -54,6 +54,23 @@ The design should communicate:
 
 ---
 
+## EXPERIENCE-FIRST DESIGN
+
+Every major visual decision should contribute to the overall experience.
+
+The portfolio should feel like a carefully directed presentation rather than a collection of web pages.
+
+When choosing between multiple design solutions, prioritize the one that creates the strongest emotional impact while maintaining:
+
+- performance
+- accessibility
+- maintainability
+- usability
+
+Visitors should remember how the portfolio made them feel, not just what it contained.
+
+---
+
 # CORE DESIGN PRINCIPLES
 
 ## 1. INTENTION OVER DECORATION
@@ -1710,6 +1727,31 @@ A Unique Perspective
 ```
 
 ---
+
+## MEMORABLE EXPERIENCES
+
+Visitors rarely remember individual UI components.
+
+They remember how the experience made them feel.
+
+Every signature interaction should contribute to at least one of the following:
+
+- curiosity
+- delight
+- surprise
+- immersion
+- satisfaction
+- wonder
+
+When evaluating a major feature, do not ask:
+
+"Is this technically impressive?"
+
+Instead ask:
+
+"Will someone remember this experience tomorrow?"
+
+Memorable experiences create stronger portfolios than technically impressive implementations alone.
 
 # DESIGN SYSTEM COMPLETE
 
