@@ -1,286 +1,126 @@
 # START_HERE.md
+Solarisx AI Creative System — Canonical Index
 
-# SOLARISX AI CREATIVE SYSTEM
-
-Version: 1.0
-
----
-
-# PURPOSE
-
-This folder contains the complete operating system for the Solarisx Portfolio project.
-
-It defines:
-
-- how the AI assistant should think
-- what standards it should follow
-- who it is helping
-- what it is building
-- how it should design
-- how it should develop
-- how it should review its work
-
-These files are the source of truth for this project.
+Version: 2.0
 
 ---
 
-# ROLE
+## WHAT THIS FILE IS
 
-You are not acting as a generic assistant.
+This is the authoritative map of the project's current design bible.
 
-You are acting as:
+**Only documents referenced in §1 below are canonical.** Everything else
+— including historical research documents and anything in `_unknown_docs/`
+— has zero implementation authority unless explicitly promoted here.
+
+This file is not a historical snapshot. It evolves as the project
+evolves — update it when a document's role changes, not just when a new
+one is added.
+
+---
+
+## 1. CANONICAL DOCUMENTS — READING ORDER
+
+### Foundation — who, what, and how this project operates
+
+| # | Document | Answers |
+|---|---|---|
+| 1 | `MASTER_PROMPT.md` | How the AI creative/technical partner should think and operate |
+| 2 | `OPERATING_MANUAL.md` | The quality laws and standards every decision is checked against |
+| 3 | `PROFILE.md` | Who the creator is — identity, goals, taste, collaboration preferences |
+| 4 | `PROJECT_CONTEXT.md` | The portfolio's mission, audience, and success criteria |
+
+### Experience — what this should make someone feel
+
+| # | Document | Answers |
+|---|---|---|
+| 5 | `CORE_EXPERIENCE_STATEMENT.md` | The emotional target every other design decision serves. **Outranks every other design document on conflict.** |
+
+### Design System — the conceptual overview and its specialized references
+
+| # | Document | Answers |
+|---|---|---|
+| 6 | `DESIGN_SYSTEM.md` | High-level design overview — conceptual umbrella, points to the specialized documents below rather than duplicating them |
+| 7 | `CREATIVE_DIRECTION_BOARD.md` | Creative principles and governing laws — the Direction A/C relationship, typography, color mood, artistic influences |
+| 8 | `UX_ARCHITECTURE_BLUEPRINT.md` | Information architecture — frame sequence, site model, each frame's job |
+| 9 | `DESIGN_SYSTEM_TOKENS.md` | Concrete implementation values — color, type scale, spacing, motion timing/easing |
+| 10 | `HIERARCHY_SYSTEM.md` | What deserves visual emphasis, and how that's expressed through contrast, not volume |
+| 11 | `COMPOSITION_PRINCIPLES.md` | How elements are arranged spatially — eye movement, asymmetry, focal points |
+| 12 | `TRANSITION_PHILOSOPHY_CANONICAL.md` | How one frame hands off to the next. *(Filename reflects an unresolved naming collision with a document of unknown provenance — see §3. This is the authoritative version regardless of filename.)* |
+
+### Engineering — how this gets built
+
+| # | Document | Answers |
+|---|---|---|
+| 13 | `TECH_STACK.md` | Technologies, architecture, coding standards |
+| 14 | `BUILD_WORKFLOW.md` | Execution phases, review process, delivery workflow |
+
+---
+
+## 2. PRECEDENCE
 
 ```
-Creative Director
-
-+
-
-Senior Frontend Engineer
-
-+
-
-Motion Designer
-
-+
-
-Technical Architect
+CORE_EXPERIENCE_STATEMENT.md
+        ↓ governs
+DESIGN_SYSTEM.md (conceptual umbrella)
+        ↓ specialized by
+CREATIVE_DIRECTION_BOARD.md · UX_ARCHITECTURE_BLUEPRINT.md ·
+DESIGN_SYSTEM_TOKENS.md · HIERARCHY_SYSTEM.md ·
+COMPOSITION_PRINCIPLES.md · TRANSITION_PHILOSOPHY_CANONICAL.md
 ```
 
-Your primary responsibility is to transform ideas into memorable digital experiences.
-
-Creativity leads the process.
-
-Engineering exists to make those creative ideas performant, maintainable, and production-ready.
-
-When making decisions, ask:
-
-1. Does this strengthen the creative vision?
-2. Can it be implemented to a professional engineering standard?
-3. Does it improve the visitor's experience?
+If `DESIGN_SYSTEM.md` and a specialized document ever disagree, the
+specialized document wins for its specific domain — it exists precisely
+to be more detailed and more current than the overview.
 
 ---
 
-# FILE PRIORITY
+## 3. NON-CANONICAL — REFERENCE / HISTORICAL
 
-Read the following files in order.
+Valuable for understanding *why* a canonical decision was made. Not
+authoritative — do not implement from these directly.
 
----
-
-# 1. MASTER_PROMPT.md
-
-Purpose:
-
-Defines your operating behavior.
-
-It explains:
-
-- how you should think
-- how you should respond
-- how you should approach problems
+| Document | Role |
+|---|---|
+| `CREATIVE_DIRECTIONS_EXPLORATION.md` | The five candidate directions evaluated before Direction A/C was selected |
+| `COMPARATIVE_PORTFOLIO_ARCHITECTURE_STUDY.md` | The research behind the evidence-first frame ordering in UX_ARCHITECTURE_BLUEPRINT.md |
+| `DESIGN_CRITIQUE_PHASE1.md` | The implementation critique that HIERARCHY_SYSTEM.md, COMPOSITION_PRINCIPLES.md, and TRANSITION_PHILOSOPHY_CANONICAL.md were written to resolve |
 
 ---
 
-# 2. operating_manual.md
+## 4. UNKNOWN — ZERO AUTHORITY
 
-Purpose:
+Origin undetermined. Do not implement from these. Do not delete. Do not
+spend further time investigating unless a dedicated maintenance task is
+opened for it.
 
-Defines the laws and standards you must follow.
-
-It contains:
-
-- quality principles
-- decision rules
-- working standards
-
-These rules should guide all decisions.
+- `_unknown_docs/DESIGN_TOKENS.md`
+- `_unknown_docs/TRANSITION_PHILOSOPHY.md`
+- `TRANSITION_PHILOSOPHY_DRAFT.md`
+- `TRANSITION_PHILOSOPHY_V2.md`
 
 ---
 
-# 3. PROFILE.md
+## 5. OPERATING INSTRUCTIONS
 
-Purpose:
+Before making a design or implementation decision:
 
-Defines the creator you are helping.
+1. Check §4's System Map (inside `DESIGN_SYSTEM.md`) for which document
+   governs the question at hand.
+2. Follow that document's rules.
+3. If no canonical document covers it, that's a genuine gap — flag it
+   before deciding unilaterally, per PROFILE.md's collaboration
+   preferences.
 
-Contains:
-
-- identity
-- goals
-- preferences
-- communication style
-
----
-
-# 4. PROJECT_CONTEXT.md
-
-Purpose:
-
-Defines the portfolio project.
-
-Contains:
-
-- mission
-- audience
-- website structure
-- success criteria
+**Documentation is considered complete as of this version.** New design
+documents are not created speculatively — only when implementation
+exposes a real, specific gap that no existing canonical document covers.
 
 ---
 
-# 5. DESIGN_SYSTEM.md
-
-Purpose:
-
-Defines the visual language.
-
-Contains:
-
-- aesthetics
-- typography
-- colors
-- components
-- animations
-- design standards
-
----
-
-# 6. TECH_STACK.md
-
-Purpose:
-
-Defines the engineering foundation.
-
-Contains:
-
-- technologies
-- libraries
-- architecture
-- coding standards
-
----
-
-# 7. BUILD_WORKFLOW.md
-
-Purpose:
-
-Defines execution strategy.
-
-Contains:
-
-- development process
-- implementation phases
-- review process
-- launch workflow
-
----
-
-# OPERATING INSTRUCTIONS
-
-Before making decisions:
-
-1. Understand the goal.
-2. Check relevant documentation.
-3. Follow the defined standards.
-4. Explain important decisions.
-5. Prioritize quality over speed.
-
----
-
-# DECISION HIERARCHY
-
-When conflicts occur, prioritize:
+## SYSTEM STATUS
 
 ```
-User Experience
-
-↓
-
-Project Identity
-
-↓
-
-Design System
-
-↓
-
-Technical Quality
-
-↓
-
-Implementation Convenience
+Canonical structure: established.
+Priority: implementation and refinement of the five built frames.
 ```
-
----
-
-# IMPORTANT RULES
-
-## Do Not
-
-- create generic solutions
-- ignore the design system
-- prioritize trends over quality
-- add unnecessary complexity
-- make assumptions without reasoning
-
----
-
-## Always
-
-- think critically
-- explain tradeoffs
-- maintain consistency
-- improve ideas
-- protect project quality
-
----
-
-# FIRST ACTION
-
-After reading all files:
-
-Confirm understanding of:
-
-1. The creator's identity.
-2. The portfolio mission.
-3. The design direction.
-4. The technical requirements.
-5. The development workflow.
-
-Then wait for the next instruction.
-
----
-
-# FINAL PRINCIPLE
-
-The goal is not simply to create a website.
-
-The goal is to create a digital representation of a creator's:
-
-```
-Vision
-
-+
-
-Skill
-
-+
-
-Personality
-
-+
-
-Growth
-```
-
-Every decision should move closer to that goal.
-
----
-
-# SYSTEM INITIALIZATION COMPLETE
-
-Solarisx AI Creative System v1.0
-
-```
-Ready to build.
-```
-
----
