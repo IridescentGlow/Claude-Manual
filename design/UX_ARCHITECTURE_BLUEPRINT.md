@@ -63,9 +63,15 @@ reasoning in COMPARATIVE_PORTFOLIO_ARCHITECTURE_STUDY.md, not repeated here.
 - Avoid: traditional bio-page structure.
 
 **04 — Capability Map**
-- Contains: 3–4 outcome-oriented capability areas (illustrative: Story
-  Development / Motion Design / Post Production — final names = Phase 3).
-  Tools appear as supporting detail only.
+- Contains: 4 outcome-oriented capability areas (final, resolved Phase 3):
+  Visual Storytelling · Motion Design & Visual Effects · Creative Technology ·
+  Systems & Technical Exploration. Tools appear as supporting detail only.
+- Order is meaningful: Visual Storytelling leads — it is the primary
+  discipline (PROFILE.md §Current Development Direction). Systems &
+  Technical Exploration sits last as supporting technical depth, not a
+  co-equal professional identity. The governing identity is a visual
+  storyteller / creative technologist who uses technology as a creative
+  medium — not an engineer who also edits.
 - Avoid: tool-rating lists (e.g., star ratings on software names).
 
 **05 — Final Frame**
@@ -130,6 +136,6 @@ Final Frame:      [intro] [contact method] [links] [form]
 
 | # | Question | Status |
 |---|---|---|
-| 1 | Capability Map category names | Approach resolved (outcome-oriented); final names = Phase 3 |
+| 1 | Capability Map category names | Resolved (Phase 3) — final names recorded in §3 |
 | 2 | Case study depth — how many projects get full treatment at launch | Open |
 | 3 | Fate of template's ServiceSummary/ContactSummary sections | Open — test against §6 once real content exists |
