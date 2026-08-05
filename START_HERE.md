@@ -48,12 +48,14 @@ one is added.
 | 11 | `COMPOSITION_PRINCIPLES.md` | How elements are arranged spatially — eye movement, asymmetry, focal points |
 | 12 | `TRANSITION_PHILOSOPHY_CANONICAL.md` | How one frame hands off to the next. *(Filename reflects an unresolved naming collision with a document of unknown provenance — see §3. This is the authoritative version regardless of filename.)* |
 
+| 13 | `PROJECT_PAGE_SYSTEM.md` | The `/projects/:slug` depth layer — route architecture, case-study structure, media handling, per-page SEO |
+
 ### Engineering — how this gets built
 
 | # | Document | Answers |
 |---|---|---|
-| 13 | `TECH_STACK.md` | Technologies, architecture, coding standards |
-| 14 | `BUILD_WORKFLOW.md` | Execution phases, review process, delivery workflow |
+| 14 | `TECH_STACK.md` | Technologies, architecture, coding standards |
+| 15 | `BUILD_WORKFLOW.md` | Execution phases, review process, delivery workflow |
 
 ---
 
@@ -66,7 +68,8 @@ DESIGN_SYSTEM.md (conceptual umbrella)
         ↓ specialized by
 CREATIVE_DIRECTION_BOARD.md · UX_ARCHITECTURE_BLUEPRINT.md ·
 DESIGN_SYSTEM_TOKENS.md · HIERARCHY_SYSTEM.md ·
-COMPOSITION_PRINCIPLES.md · TRANSITION_PHILOSOPHY_CANONICAL.md
+COMPOSITION_PRINCIPLES.md · TRANSITION_PHILOSOPHY_CANONICAL.md ·
+PROJECT_PAGE_SYSTEM.md
 ```
 
 If `DESIGN_SYSTEM.md` and a specialized document ever disagree, the

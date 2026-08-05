@@ -57,6 +57,7 @@ emotional source of truth.
 | What deserves visual emphasis, and how is that expressed without making things louder? | HIERARCHY_SYSTEM.md |
 | How are elements arranged spatially within a frame — eye movement, asymmetry, focal points? | COMPOSITION_PRINCIPLES.md |
 | How does one frame hand off to the next? | TRANSITION_PHILOSOPHY.md |
+| How do the `/projects/:slug` case-study pages work — route, content structure, media, per-page SEO? | PROJECT_PAGE_SYSTEM.md |
 
 This table is the practical reason this document exists: a fast answer
 to "which document do I open" before going and reading five files to

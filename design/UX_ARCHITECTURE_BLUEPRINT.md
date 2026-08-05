@@ -18,7 +18,7 @@ layout. Source evidence: COMPARATIVE_PORTFOLIO_ARCHITECTURE_STUDY.md.
 / (single-page narrative)
 ├── Opening Frame      (Hero)
 ├── Proof of Craft      (Work index)
-│     └── /work/[project-slug]   ← expandable depth layer
+│     └── /projects/:slug        ← expandable depth layer (PROJECT_PAGE_SYSTEM.md)
 ├── Context Layer       (About)
 ├── Capability Map      (Capabilities)
 └── Final Frame         (Contact)
@@ -53,8 +53,8 @@ reasoning in COMPARATIVE_PORTFOLIO_ARCHITECTURE_STUDY.md, not repeated here.
 
 **02 — Proof of Craft**
 - Contains: featured reel/showcase (highest visual priority), strongest
-  projects, dual-view project data — scan view + `/work/[slug]` depth view
-  (Challenge → Process → Execution → Result, LAW 33).
+  projects, dual-view project data — scan view + `/projects/:slug` depth
+  view (LAW 33; full spec in PROJECT_PAGE_SYSTEM.md).
 - Rule: evidence before claims.
 
 **03 — Context Layer**
@@ -101,7 +101,8 @@ branching UI.
 - Minimal/hidden until requested — never competes with Opening Frame.
 - Fully keyboard-operable, screen-reader coherent (gap in original
   template — unresolved).
-- `/work/[slug]` pages: clear path back to Proof of Craft.
+- `/projects/:slug` pages: opened in a new tab, so the scroll position is
+  never lost — see PROJECT_PAGE_SYSTEM.md §2.
 - Scroll-progress indication: recommended; visual treatment = Design
   System decision.
 
@@ -124,7 +125,7 @@ decoration, cut it.
 
 ```
 Opening Frame:    [identity] [positioning statement] [scroll cue]
-Proof of Craft:   [intro] [featured reel] [project list: scan + /work/slug]
+Proof of Craft:   [intro] [featured reel] [project list: scan + /projects/:slug]
 Context Layer:    [intro: "behind the work"] [narrative] [personal texture]
 Capability Map:   [intro] [3–4 outcome areas, tools secondary]
 Final Frame:      [intro] [contact method] [links] [form]
