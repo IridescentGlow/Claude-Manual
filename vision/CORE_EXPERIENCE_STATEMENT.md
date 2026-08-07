@@ -1,3 +1,17 @@
+---
+title: "Core Experience Statement"
+type: vision
+status: canonical
+related:
+  - "[[COMPOSITION_PRINCIPLES]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+  - "[[HIERARCHY_SYSTEM]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[CREATIVE_DIRECTION_BOARD]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+---
+
 # CORE EXPERIENCE STATEMENT
 Solarisx Portfolio — Version 3.0 (retrofit)
 
@@ -28,3 +42,18 @@ Proof of how much control it contains.
   it just technically correct?
 - Technically sound but serves none of the above → reconsider it.
 - Conflicts with another canonical document → this one wins.
+
+---
+
+## Related Documents
+
+This document sits at the top of the precedence graph — every document
+below states explicitly that it is governed by this one:
+
+- [[COMPOSITION_PRINCIPLES]] — governed by this statement
+- [[UX_ARCHITECTURE_BLUEPRINT]] — governed by this statement
+- [[HIERARCHY_SYSTEM]] — governed by this statement
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — governed by this statement
+- [[CREATIVE_DIRECTION_BOARD]] — governed by this statement
+- [[DESIGN_SYSTEM]] — governed by this statement
+- [[PROJECT_PAGE_SYSTEM]] — governed by this statement

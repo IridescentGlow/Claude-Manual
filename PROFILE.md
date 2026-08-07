@@ -1,3 +1,12 @@
+---
+title: "Creator Profile"
+type: reference
+status: canonical
+related:
+  - "[[MASTER_PROMPT]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+---
+
 # PROFILE.md
 
 # CREATOR PROFILE
@@ -1132,5 +1141,15 @@ Version: 1.0
 This document defines the creator's identity,
 goals, preferences, and collaboration style.
 ```
+
+---
+
+## Related Documents
+
+- [[MASTER_PROMPT]] — lists this document as controlling personalization
+  in its Document Authority System
+- [[UX_ARCHITECTURE_BLUEPRINT]] — cites this document's "Current
+  Development Direction" section directly (§3) to justify the Capability
+  Map's category ordering
 
 ---

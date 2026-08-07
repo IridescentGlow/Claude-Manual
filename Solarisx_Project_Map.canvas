@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"pm-center","type":"text","x":-140,"y":-60,"width":280,"height":120,"color":"#CFA355","text":"# SOLARISX PORTFOLIO\n\nProject knowledge architecture"},
+		{"id":"pm-vision-group","type":"group","x":-900,"y":-600,"width":520,"height":380,"label":"VISION","color":"4"},
+		{"id":"pm-vision-core","type":"file","x":-860,"y":-520,"width":440,"height":70,"file":"vision/CORE_EXPERIENCE_STATEMENT.md"},
+		{"id":"pm-vision-direction","type":"file","x":-860,"y":-420,"width":440,"height":70,"file":"vision/CREATIVE_DIRECTION_BOARD.md"},
+		{"id":"pm-vision-profile","type":"file","x":-860,"y":-320,"width":440,"height":70,"file":"PROFILE.md"},
+		{"id":"pm-design-group","type":"group","x":500,"y":-700,"width":520,"height":480,"label":"DESIGN SYSTEM","color":"6"},
+		{"id":"pm-design-system","type":"file","x":540,"y":-610,"width":440,"height":70,"file":"DESIGN_SYSTEM.md"},
+		{"id":"pm-design-tokens","type":"file","x":540,"y":-510,"width":440,"height":70,"file":"design/DESIGN_SYSTEM_TOKENS.md"},
+		{"id":"pm-design-hierarchy","type":"file","x":540,"y":-410,"width":440,"height":70,"file":"design/HIERARCHY_SYSTEM.md"},
+		{"id":"pm-design-pagesystem","type":"file","x":540,"y":-310,"width":440,"height":70,"file":"design/PROJECT_PAGE_SYSTEM.md"},
+		{"id":"pm-engineering-group","type":"group","x":550,"y":300,"width":520,"height":380,"label":"ENGINEERING","color":"5"},
+		{"id":"pm-engineering-techstack","type":"file","x":590,"y":390,"width":440,"height":70,"file":"TECH_STACK.md"},
+		{"id":"pm-engineering-buildworkflow","type":"file","x":590,"y":490,"width":440,"height":70,"file":"engineering/BUILD_WORKFLOW.md"},
+		{"id":"pm-engineering-operatingmanual","type":"file","x":590,"y":590,"width":440,"height":70,"file":"engineering/OPERATING_MANUAL.md"},
+		{"id":"pm-casestudies-group","type":"group","x":-950,"y":250,"width":520,"height":220,"label":"CASE STUDIES","color":"1"},
+		{"id":"pm-casestudies-medihelp","type":"file","x":-910,"y":340,"width":440,"height":70,"file":"case-studies/MEDIHELP_CASE_STUDY.md"},
+		{"id":"pm-implstatus-group","type":"group","x":-160,"y":700,"width":480,"height":220,"label":"IMPLEMENTATION STATUS","color":"2"},
+		{"id":"pm-implstatus-projectstatus","type":"text","x":-120,"y":790,"width":400,"height":90,"text":"**PROJECT_STATUS**\n\nNot yet a vault file. Currently `PROJECT_CONTEXT.md` at the portfolio repo root, outside docs/ — pending the rename agreed earlier but not yet executed."}
+	],
+	"edges":[
+		{"id":"pm-edge-center-vision","fromNode":"pm-center","fromSide":"left","toNode":"pm-vision-group","toSide":"right"},
+		{"id":"pm-edge-center-design","fromNode":"pm-center","fromSide":"right","toNode":"pm-design-group","toSide":"left"},
+		{"id":"pm-edge-center-engineering","fromNode":"pm-center","fromSide":"right","toNode":"pm-engineering-group","toSide":"left"},
+		{"id":"pm-edge-center-casestudies","fromNode":"pm-center","fromSide":"left","toNode":"pm-casestudies-group","toSide":"right"},
+		{"id":"pm-edge-center-implstatus","fromNode":"pm-center","fromSide":"bottom","toNode":"pm-implstatus-group","toSide":"top"}
+	]
+}

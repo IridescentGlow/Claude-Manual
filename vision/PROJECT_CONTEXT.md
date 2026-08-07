@@ -1,3 +1,13 @@
+---
+title: "Portfolio Project Context"
+type: vision
+status: canonical
+related:
+  - "[[MASTER_PROMPT]]"
+  - "[[OPERATING_MANUAL]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+---
+
 # PROJECT_CONTEXT.md
 
 # PORTFOLIO PROJECT CONTEXT
@@ -1658,5 +1668,16 @@ This document defines the purpose,
 direction, requirements, and execution
 strategy of the Solarisx Portfolio project.
 ```
+
+---
+
+## Related Documents
+
+- [[MASTER_PROMPT]] — lists this document as controlling project direction
+  in its Document Authority System
+- [[OPERATING_MANUAL]] — lists this document second in its Master
+  Documentation System
+- [[UX_ARCHITECTURE_BLUEPRINT]] — cites this document directly (§4) for
+  the audience-journey framing (Client / Employer / Collaborator)
 
 ---

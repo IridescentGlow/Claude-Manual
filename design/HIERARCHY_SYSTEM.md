@@ -1,3 +1,17 @@
+---
+title: "Hierarchy System"
+type: design
+status: canonical
+related:
+  - "[[CORE_EXPERIENCE_STATEMENT]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+  - "[[COMPOSITION_PRINCIPLES]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[DESIGN_SYSTEM_TOKENS]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+---
+
 # HIERARCHY SYSTEM
 Solarisx Portfolio — Version 1.0
 
@@ -103,3 +117,19 @@ guessing which one "feels" more important.
 - *How* one frame hands off to the next → TRANSITION_PHILOSOPHY.md
 - *Where* elements sit spatially within a frame → COMPOSITION_PRINCIPLES.md
 - Exact spacing/color/type token values → DESIGN_SYSTEM_TOKENS.md
+
+---
+
+## Related Documents
+
+- [[CORE_EXPERIENCE_STATEMENT]] — governs this document
+- [[UX_ARCHITECTURE_BLUEPRINT]] — this document extends its §2 (frame weight)
+- [[COMPOSITION_PRINCIPLES]] — companion document; *where* elements sit,
+  vs. this document's *why* they carry weight
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — uses this document's §1/§3 for
+  transition tier reasoning
+- [[DESIGN_SYSTEM_TOKENS]] — holds the exact values this document's rules
+  are expressed through
+- [[DESIGN_SYSTEM]] — cites this document for its hierarchy review standard
+- [[PROJECT_PAGE_SYSTEM]] — cites this document for why Proof of Craft
+  holds its weight

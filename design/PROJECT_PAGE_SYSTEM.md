@@ -1,3 +1,21 @@
+---
+title: "Project Page System"
+type: design
+status: canonical
+related:
+  - "[[CORE_EXPERIENCE_STATEMENT]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+  - "[[OPERATING_MANUAL]]"
+  - "[[TECH_STACK]]"
+  - "[[COMPOSITION_PRINCIPLES]]"
+  - "[[HIERARCHY_SYSTEM]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[DESIGN_SYSTEM_TOKENS]]"
+  - "[[CREATIVE_DIRECTION_BOARD]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[MEDIHELP_CASE_STUDY]]"
+---
+
 # PROJECT PAGE SYSTEM
 Solarisx Portfolio — Version 1.0
 
@@ -269,3 +287,28 @@ treatment at launch — remains open and is not resolved here.
 - *How* frames hand off in the single-page narrative → TRANSITION_PHILOSOPHY_CANONICAL.md
 - Exact colour / type / spacing / motion values → DESIGN_SYSTEM_TOKENS.md
 - Case-study narrative theory → OPERATING_MANUAL.md LAW 33
+
+---
+
+## Related Documents
+
+- [[CORE_EXPERIENCE_STATEMENT]] — governs this document
+- [[UX_ARCHITECTURE_BLUEPRINT]] — this document extends its §1/§3;
+  Proof of Craft owns the index, this document owns the depth layer
+- [[OPERATING_MANUAL]] — this document's case-study section structure
+  comes from that manual's LAW 33
+- [[TECH_STACK]] — this document's router-dependency decision (§2) is
+  justified against that document's dependency rule
+- [[COMPOSITION_PRINCIPLES]] — governs this page's gallery layout (§6)
+- [[HIERARCHY_SYSTEM]] — explains why Proof of Craft (and by extension
+  this depth layer) holds its weight
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — governs motion inside this page (§7)
+- [[DESIGN_SYSTEM_TOKENS]] — this document's §2/§8 cite its case-study
+  reading-width and Revelation-category tokens
+- [[CREATIVE_DIRECTION_BOARD]] — this document's §7 cites its Revelation
+  moment definition (§1)
+- [[DESIGN_SYSTEM]] — this document's page-level visual rules trace back
+  to that document's system map
+- [[MEDIHELP_CASE_STUDY]] — the first project page built against this
+  system; that document states directly that it is "Governed by
+  `docs/design/PROJECT_PAGE_SYSTEM.md` §4"

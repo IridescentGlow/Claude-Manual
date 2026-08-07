@@ -1,3 +1,21 @@
+---
+title: "Design System — High-Level Overview"
+type: design
+status: canonical
+related:
+  - "[[CORE_EXPERIENCE_STATEMENT]]"
+  - "[[CREATIVE_DIRECTION_BOARD]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+  - "[[DESIGN_SYSTEM_TOKENS]]"
+  - "[[HIERARCHY_SYSTEM]]"
+  - "[[COMPOSITION_PRINCIPLES]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+  - "[[MASTER_PROMPT]]"
+  - "[[OPERATING_MANUAL]]"
+  - "[[MEDIHELP_CASE_STUDY]]"
+---
+
 # DESIGN_SYSTEM.md
 Solarisx Portfolio — High-Level Design Overview
 
@@ -91,3 +109,26 @@ cross-referencing only. Anything that reads like an implementation
 detail (a hex value, a duration, a specific spacing number) belongs in a
 specialized document, not here — if you find one in this file, it should
 be moved, not trusted as current.
+
+---
+
+## Related Documents
+
+Per this document's own §4 System Map, plus documents that name this one
+in return:
+
+- [[CORE_EXPERIENCE_STATEMENT]] — governs this document
+- [[CREATIVE_DIRECTION_BOARD]] — creative direction detail (§4 System Map)
+- [[UX_ARCHITECTURE_BLUEPRINT]] — frame sequence detail (§4 System Map)
+- [[DESIGN_SYSTEM_TOKENS]] — implementation values (§4 System Map)
+- [[HIERARCHY_SYSTEM]] — visual emphasis detail (§4 System Map)
+- [[COMPOSITION_PRINCIPLES]] — spatial arrangement detail (§4 System Map)
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — frame handoff detail (§4 System Map;
+  note this document's own table still names the file
+  `TRANSITION_PHILOSOPHY.md` — see [[START_HERE]] §3 for the naming
+  collision this refers to)
+- [[PROJECT_PAGE_SYSTEM]] — case-study page detail (§4 System Map)
+- [[MASTER_PROMPT]] — names this document in its Document Authority System
+- [[OPERATING_MANUAL]] — names this document in its Master Documentation System
+- [[MEDIHELP_CASE_STUDY]] — the project page this system's visual rules
+  will govern once implemented

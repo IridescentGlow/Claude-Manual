@@ -1,3 +1,10 @@
+---
+title: "Build Workflow"
+type: engineering
+status: canonical
+related: []
+---
+
 # BUILD_WORKFLOW.md
 
 # SOLARISX PORTFOLIO BUILD WORKFLOW
@@ -1198,5 +1205,14 @@ This document defines the execution
 process for creating the Solarisx Portfolio
 from foundation to launch.
 ```
+
+---
+
+## Related Documents
+
+No other canonical document names this file directly — it's connected to
+the rest of the vault only through [[START_HERE]]'s reading order, not
+through content-level cross-reference. Noted here rather than inventing a
+connection.
 
 ---

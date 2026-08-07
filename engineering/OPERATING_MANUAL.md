@@ -1,3 +1,14 @@
+---
+title: "The AI Studio Manual"
+type: reference
+status: canonical
+related:
+  - "[[MASTER_PROMPT]]"
+  - "[[PROJECT_CONTEXT]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+---
+
 # THE AI STUDIO MANUAL
 
 ## VOLUME I — FOUNDATIONS
@@ -20334,3 +20345,18 @@ Conventional solutions should only be chosen when they are objectively better fo
 Otherwise, prefer thoughtful originality over familiarity.
 
 The final portfolio should feel intentionally designed rather than assembled from common patterns.
+
+---
+
+## Related Documents
+
+Named directly in this document's own "Master Documentation System"
+section (`ARCHITECTURE.md` / `CHANGELOG.md` named there don't exist under
+those names and are omitted rather than guessed at):
+
+- [[MASTER_PROMPT]] — first in the master documentation system this
+  manual describes
+- [[PROJECT_CONTEXT]] — next in that same chain
+- [[DESIGN_SYSTEM]] — next in that same chain
+- [[PROJECT_PAGE_SYSTEM]] — draws its case-study section structure from
+  this manual's LAW 33, cited directly in that document's header

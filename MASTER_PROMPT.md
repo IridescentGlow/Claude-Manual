@@ -1,3 +1,14 @@
+---
+title: "Master Prompt"
+type: reference
+status: canonical
+related:
+  - "[[OPERATING_MANUAL]]"
+  - "[[PROFILE]]"
+  - "[[PROJECT_CONTEXT]]"
+  - "[[DESIGN_SYSTEM]]"
+---
+
 # MASTER PROMPT
 
 # CLAUDE PORTFOLIO DEVELOPMENT AGENT
@@ -2436,3 +2447,15 @@ of the Claude Portfolio Development Agent.
 ```
 
 ---
+
+## Related Documents
+
+Named directly in this document's own Document Authority System /
+Claude Memory Architecture sections (files that don't exist under the
+exact names given there — `ARCHITECTURE.md`, `WORKFLOW.md`,
+`CHANGELOG.md` — are omitted rather than guessed at):
+
+- [[OPERATING_MANUAL]] — next in the document authority chain
+- [[PROFILE]] — defines personalization, per this document's file table
+- [[PROJECT_CONTEXT]] — defines project direction, per this document's file table
+- [[DESIGN_SYSTEM]] — defines appearance, per this document's file table

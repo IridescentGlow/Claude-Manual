@@ -1,3 +1,25 @@
+---
+title: "Start Here — Canonical Index"
+type: reference
+status: canonical
+related:
+  - "[[MASTER_PROMPT]]"
+  - "[[OPERATING_MANUAL]]"
+  - "[[PROFILE]]"
+  - "[[PROJECT_CONTEXT]]"
+  - "[[CORE_EXPERIENCE_STATEMENT]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[CREATIVE_DIRECTION_BOARD]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+  - "[[DESIGN_SYSTEM_TOKENS]]"
+  - "[[HIERARCHY_SYSTEM]]"
+  - "[[COMPOSITION_PRINCIPLES]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+  - "[[TECH_STACK]]"
+  - "[[BUILD_WORKFLOW]]"
+---
+
 # START_HERE.md
 Solarisx AI Creative System — Canonical Index
 
@@ -127,3 +149,26 @@ exposes a real, specific gap that no existing canonical document covers.
 Canonical structure: established.
 Priority: implementation and refinement of the five built frames.
 ```
+
+---
+
+## Related Documents
+
+This is the index — it links to all 15 canonical documents it governs the
+reading order of:
+
+- [[MASTER_PROMPT]] — how the AI partner operates
+- [[OPERATING_MANUAL]] — the quality laws every decision is checked against
+- [[PROFILE]] — who the creator is
+- [[PROJECT_CONTEXT]] — the portfolio's mission and audience
+- [[CORE_EXPERIENCE_STATEMENT]] — the emotional target; outranks all others
+- [[DESIGN_SYSTEM]] — conceptual umbrella for the design documents
+- [[CREATIVE_DIRECTION_BOARD]] — Direction A/C, typography, color mood
+- [[UX_ARCHITECTURE_BLUEPRINT]] — frame sequence and site model
+- [[DESIGN_SYSTEM_TOKENS]] — concrete color/type/spacing/motion values
+- [[HIERARCHY_SYSTEM]] — visual emphasis through contrast, not volume
+- [[COMPOSITION_PRINCIPLES]] — spatial arrangement within a frame
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — frame-to-frame handoff
+- [[PROJECT_PAGE_SYSTEM]] — the `/projects/:slug` depth layer
+- [[TECH_STACK]] — technologies and coding standards
+- [[BUILD_WORKFLOW]] — execution phases and delivery workflow

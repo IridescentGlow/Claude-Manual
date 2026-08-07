@@ -1,3 +1,17 @@
+---
+title: "Design System Tokens"
+type: design
+status: canonical
+related:
+  - "[[CREATIVE_DIRECTION_BOARD]]"
+  - "[[COMPOSITION_PRINCIPLES]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+  - "[[HIERARCHY_SYSTEM]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+---
+
 # DESIGN SYSTEM TOKENS
 Solarisx Portfolio — Version 1.0
 
@@ -172,3 +186,17 @@ frame requirements; add only if a specific component needs it.
   just decorative use.
 - `--text-display` clamp values are a first pass — needs testing against
   actual positioning-statement copy length once Phase 3 content exists.
+
+---
+
+## Related Documents
+
+- [[CREATIVE_DIRECTION_BOARD]] — this document translates that board into
+  implementation-ready values
+- [[COMPOSITION_PRINCIPLES]] — cites this document for exact spacing values
+- [[PROJECT_PAGE_SYSTEM]] — cites this document's §2 for case-study reading width
+- [[HIERARCHY_SYSTEM]] — cites this document for exact token values
+- [[DESIGN_SYSTEM]] — cites this document for consistency checks
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — cites this document for duration/easing values
+- [[UX_ARCHITECTURE_BLUEPRINT]] — this document restricts `--ease-revelation`
+  to that document's §6 "Revelation" category

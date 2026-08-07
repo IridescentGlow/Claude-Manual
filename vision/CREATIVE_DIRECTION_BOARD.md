@@ -1,3 +1,18 @@
+---
+title: "Creative Direction Board"
+type: vision
+status: canonical
+related:
+  - "[[CORE_EXPERIENCE_STATEMENT]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[COMPOSITION_PRINCIPLES]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[DESIGN_SYSTEM_TOKENS]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+  - "[[HIERARCHY_SYSTEM]]"
+---
+
 # CREATIVE DIRECTION BOARD
 Solarisx Portfolio — Version 3.0 (retrofit)
 
@@ -148,3 +163,19 @@ Design System translates, does not reinterpret:
 | §9 Composition | Spacing scale + grid |
 
 Any proposed token must trace back to a rule above.
+
+---
+
+## Related Documents
+
+- [[CORE_EXPERIENCE_STATEMENT]] — governs this document
+- [[UX_ARCHITECTURE_BLUEPRINT]] — cited directly (§§1, 2, 6) for the
+  three-purpose interaction test and frame sequence
+- [[DESIGN_SYSTEM]] — feeds this document's §8 (Color Mood) into token values
+- [[COMPOSITION_PRINCIPLES]] — extends this document's §9 (Composition Style)
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — companion document to this
+  document's §6 (Animation Philosophy)
+- [[DESIGN_SYSTEM_TOKENS]] — translates this document into
+  implementation-ready values
+- [[PROJECT_PAGE_SYSTEM]] — cites this document's §1 (Revelation moments)
+- [[HIERARCHY_SYSTEM]] — cites this document's §1 (accent color scarcity)

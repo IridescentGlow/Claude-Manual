@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"design-group","type":"group","x":500,"y":-750,"width":520,"height":520,"color":"6","label":"DESIGN"},
+		{"id":"vision-group","type":"group","x":-900,"y":-650,"width":520,"height":420,"color":"4","label":"VISION"},
+		{"id":"engineering-group","type":"group","x":550,"y":300,"width":520,"height":420,"color":"5","label":"ENGINEERING"},
+		{"id":"projectsystem-group","type":"group","x":-950,"y":250,"width":520,"height":340,"color":"2","label":"PROJECT SYSTEM"},
+		{"id":"casestudies-group","type":"group","x":-160,"y":750,"width":480,"height":220,"color":"1","label":"CASE STUDIES"},
+		{"id":"center","type":"text","text":"# SOLARISX PORTFOLIO\n\nThe complete documentation system","x":-140,"y":-60,"width":280,"height":120,"color":"#CFA355"},
+		{"id":"vision-core","type":"file","file":"vision/CORE_EXPERIENCE_STATEMENT.md","x":-860,"y":-560,"width":440,"height":70},
+		{"id":"vision-direction","type":"file","file":"vision/CREATIVE_DIRECTION_BOARD.md","x":-860,"y":-460,"width":440,"height":70},
+		{"id":"vision-profile","type":"file","file":"PROFILE.md","x":-860,"y":-360,"width":440,"height":70},
+		{"id":"design-system","type":"file","file":"DESIGN_SYSTEM.md","x":540,"y":-660,"width":440,"height":70},
+		{"id":"design-tokens","type":"file","file":"design/DESIGN_SYSTEM_TOKENS.md","x":540,"y":-560,"width":440,"height":70},
+		{"id":"design-hierarchy","type":"file","file":"design/HIERARCHY_SYSTEM.md","x":540,"y":-460,"width":440,"height":70},
+		{"id":"design-composition","type":"file","file":"design/COMPOSITION_PRINCIPLES.md","x":540,"y":-360,"width":440,"height":70},
+		{"id":"engineering-techstack","type":"file","file":"TECH_STACK.md","x":590,"y":390,"width":440,"height":70},
+		{"id":"engineering-buildworkflow","type":"file","file":"engineering/BUILD_WORKFLOW.md","x":590,"y":490,"width":440,"height":70},
+		{"id":"engineering-operatingmanual","type":"file","file":"engineering/OPERATING_MANUAL.md","x":590,"y":590,"width":440,"height":70},
+		{"id":"projectsystem-pagesystem","type":"file","file":"design/PROJECT_PAGE_SYSTEM.md","x":-910,"y":340,"width":440,"height":70},
+		{"id":"projectsystem-uxblueprint","type":"file","file":"design/UX_ARCHITECTURE_BLUEPRINT.md","x":-910,"y":440,"width":440,"height":70},
+		{"id":"casestudies-medihelp","type":"file","file":"case-studies/MEDIHELP_CASE_STUDY.md","x":-120,"y":840,"width":400,"height":70}
+	],
+	"edges":[
+		{"id":"edge-center-vision","fromNode":"center","fromSide":"left","toNode":"vision-group","toSide":"right"},
+		{"id":"edge-center-design","fromNode":"center","fromSide":"right","toNode":"design-group","toSide":"left"},
+		{"id":"edge-center-projectsystem","fromNode":"center","fromSide":"left","toNode":"projectsystem-group","toSide":"right"},
+		{"id":"edge-center-engineering","fromNode":"center","fromSide":"right","toNode":"engineering-group","toSide":"left"},
+		{"id":"edge-center-casestudies","fromNode":"center","fromSide":"bottom","toNode":"casestudies-group","toSide":"top"}
+	]
+}

@@ -1,3 +1,19 @@
+---
+title: "UX Architecture Blueprint"
+type: design
+status: canonical
+related:
+  - "[[CORE_EXPERIENCE_STATEMENT]]"
+  - "[[CREATIVE_DIRECTION_BOARD]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+  - "[[PROFILE]]"
+  - "[[PROJECT_CONTEXT]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[HIERARCHY_SYSTEM]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[DESIGN_SYSTEM_TOKENS]]"
+---
+
 # UX ARCHITECTURE BLUEPRINT
 Solarisx Portfolio — Version 3.0 (retrofit)
 
@@ -140,3 +156,20 @@ Final Frame:      [intro] [contact method] [links] [form]
 | 1 | Capability Map category names | Resolved (Phase 3) — final names recorded in §3 |
 | 2 | Case study depth — how many projects get full treatment at launch | Open |
 | 3 | Fate of template's ServiceSummary/ContactSummary sections | Open — test against §6 once real content exists |
+
+---
+
+## Related Documents
+
+- [[CORE_EXPERIENCE_STATEMENT]] — governs this document
+- [[CREATIVE_DIRECTION_BOARD]] — structural companion to this document
+- [[PROJECT_PAGE_SYSTEM]] — this document's §1/§3 define what
+  Proof of Craft owns; that document owns the depth layer behind it
+- [[PROFILE]] — cited directly (§3) for Capability Map's category ordering
+- [[PROJECT_CONTEXT]] — cited directly (§4) for the audience-journey framing
+- [[DESIGN_SYSTEM]] — cites this document for frame sequence and site model
+- [[HIERARCHY_SYSTEM]] — extends this document's §2 (frame weight)
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — uses this document's §2 frame
+  hierarchy for transition tiers
+- [[DESIGN_SYSTEM_TOKENS]] — restricts `--ease-revelation` to this
+  document's §6 "Revelation" category

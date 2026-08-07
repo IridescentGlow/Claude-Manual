@@ -1,3 +1,18 @@
+---
+title: "Transition Philosophy (Canonical)"
+type: design
+status: canonical
+related:
+  - "[[CORE_EXPERIENCE_STATEMENT]]"
+  - "[[CREATIVE_DIRECTION_BOARD]]"
+  - "[[HIERARCHY_SYSTEM]]"
+  - "[[COMPOSITION_PRINCIPLES]]"
+  - "[[DESIGN_SYSTEM_TOKENS]]"
+  - "[[UX_ARCHITECTURE_BLUEPRINT]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+---
+
 # TRANSITION PHILOSOPHY
 Solarisx Portfolio — Version 1.0 (Canonical, pending START_HERE.md reference)
 
@@ -95,3 +110,25 @@ motion category in this project. No separate handling to invent.
 - *Where* elements sit within a frame → COMPOSITION_PRINCIPLES.md
 - Exact duration/easing values, and any future trigger-position tokens →
   CREATIVE_DIRECTION_BOARD.md §6 / DESIGN_SYSTEM_TOKENS.md §4
+
+---
+
+## Related Documents
+
+*(This file's basename resolves the `TRANSITION_PHILOSOPHY.md` naming
+collision documented in [[START_HERE]] §3 — this is the authoritative
+version regardless of what other documents' prose call it.)*
+
+- [[CORE_EXPERIENCE_STATEMENT]] — governs this document
+- [[CREATIVE_DIRECTION_BOARD]] — companion to that document's §6
+  (Animation Philosophy)
+- [[HIERARCHY_SYSTEM]] — companion document this one is written alongside
+- [[COMPOSITION_PRINCIPLES]] — cited for *where* elements sit, vs. this
+  document's *how* they hand off
+- [[DESIGN_SYSTEM_TOKENS]] — holds the exact duration/easing values this
+  document's rules are expressed through
+- [[UX_ARCHITECTURE_BLUEPRINT]] — this document uses its §2 frame
+  hierarchy for transition tiers
+- [[DESIGN_SYSTEM]] — cites this document (under its collision-affected
+  name) for frame handoff
+- [[PROJECT_PAGE_SYSTEM]] — this document governs motion inside that page

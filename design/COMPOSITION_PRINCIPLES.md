@@ -1,3 +1,17 @@
+---
+title: "Composition Principles"
+type: design
+status: canonical
+related:
+  - "[[CORE_EXPERIENCE_STATEMENT]]"
+  - "[[CREATIVE_DIRECTION_BOARD]]"
+  - "[[HIERARCHY_SYSTEM]]"
+  - "[[TRANSITION_PHILOSOPHY_CANONICAL]]"
+  - "[[DESIGN_SYSTEM_TOKENS]]"
+  - "[[DESIGN_SYSTEM]]"
+  - "[[PROJECT_PAGE_SYSTEM]]"
+---
+
 # COMPOSITION PRINCIPLES
 Solarisx Portfolio — Version 1.0
 
@@ -88,3 +102,18 @@ coincidence, not composition. Once the real asset exists:
 - *Why* a frame gets more or less visual weight → HIERARCHY_SYSTEM.md
 - *How* frames hand off to each other → TRANSITION_PHILOSOPHY.md
 - Exact spacing scale values → DESIGN_SYSTEM_TOKENS.md
+
+---
+
+## Related Documents
+
+- [[CORE_EXPERIENCE_STATEMENT]] — governs this document
+- [[CREATIVE_DIRECTION_BOARD]] — this document extends its §9 (Composition Style)
+- [[HIERARCHY_SYSTEM]] — companion document; this document's focal points
+  come from that document's §5
+- [[TRANSITION_PHILOSOPHY_CANONICAL]] — companion document covering
+  frame-to-frame handoff, not within-frame placement
+- [[DESIGN_SYSTEM_TOKENS]] — holds the exact spacing values this document
+  applies compositionally
+- [[DESIGN_SYSTEM]] — cites this document for spatial arrangement
+- [[PROJECT_PAGE_SYSTEM]] — cites this document for gallery layout rules

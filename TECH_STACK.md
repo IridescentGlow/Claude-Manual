@@ -1,3 +1,12 @@
+---
+title: "Tech Stack"
+type: engineering
+status: canonical
+related:
+  - "[[PROJECT_PAGE_SYSTEM]]"
+  - "[[MEDIHELP_CASE_STUDY]]"
+---
+
 # TECH_STACK.md
 
 # SOLARISX PORTFOLIO TECHNICAL SYSTEM
@@ -1450,5 +1459,16 @@ This document defines the technical
 architecture and engineering standards
 for the Solarisx Portfolio project.
 ```
+
+---
+
+## Related Documents
+
+- [[PROJECT_PAGE_SYSTEM]] — cites this document's dependency rule directly
+  (§2) to justify adding `react-router-dom`
+- [[MEDIHELP_CASE_STUDY]] — the confirmed technology list in that case
+  study (Django, PostgreSQL, React, Tailwind, Gemini API) is the real
+  instance of what this document describes in the abstract; not a
+  direct textual citation, added per this pass's requested example
 
 ---
